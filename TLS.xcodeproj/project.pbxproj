@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,9 +12,21 @@
 		2032991B23267D510053C87C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2032991923267D510053C87C /* Main.storyboard */; };
 		2032991D23267D540053C87C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2032991C23267D540053C87C /* Assets.xcassets */; };
 		2032992023267D540053C87C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2032991E23267D540053C87C /* LaunchScreen.storyboard */; };
+		2032992823267D730053C87C /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 2032992723267D730053C87C /* Podfile */; };
+		20329933232681E30053C87C /* de.json in Resources */ = {isa = PBXBuildFile; fileRef = 2032992A232681E20053C87C /* de.json */; };
+		20329934232681E30053C87C /* ru.json in Resources */ = {isa = PBXBuildFile; fileRef = 2032992B232681E30053C87C /* ru.json */; };
+		20329935232681E30053C87C /* pl.json in Resources */ = {isa = PBXBuildFile; fileRef = 2032992C232681E30053C87C /* pl.json */; };
+		20329936232681E30053C87C /* uk.json in Resources */ = {isa = PBXBuildFile; fileRef = 2032992D232681E30053C87C /* uk.json */; };
+		20329937232681E30053C87C /* sk.json in Resources */ = {isa = PBXBuildFile; fileRef = 2032992E232681E30053C87C /* sk.json */; };
+		20329938232681E30053C87C /* en.json in Resources */ = {isa = PBXBuildFile; fileRef = 2032992F232681E30053C87C /* en.json */; };
+		20329939232681E30053C87C /* fr.json in Resources */ = {isa = PBXBuildFile; fileRef = 20329930232681E30053C87C /* fr.json */; };
+		2032993A232681E30053C87C /* cs.json in Resources */ = {isa = PBXBuildFile; fileRef = 20329931232681E30053C87C /* cs.json */; };
+		2032993B232681E30053C87C /* es.json in Resources */ = {isa = PBXBuildFile; fileRef = 20329932232681E30053C87C /* es.json */; };
+		88B8D8BD38BB3510C4B6C79E /* Pods_TLS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1733B722314DAEEF27F74AE7 /* Pods_TLS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1733B722314DAEEF27F74AE7 /* Pods_TLS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TLS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2032991223267D510053C87C /* TLS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TLS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2032991523267D510053C87C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2032991723267D510053C87C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +34,18 @@
 		2032991C23267D540053C87C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2032991F23267D540053C87C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2032992123267D540053C87C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2032992723267D730053C87C /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2032992A232681E20053C87C /* de.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = de.json; sourceTree = "<group>"; };
+		2032992B232681E30053C87C /* ru.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ru.json; sourceTree = "<group>"; };
+		2032992C232681E30053C87C /* pl.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pl.json; sourceTree = "<group>"; };
+		2032992D232681E30053C87C /* uk.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = uk.json; sourceTree = "<group>"; };
+		2032992E232681E30053C87C /* sk.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sk.json; sourceTree = "<group>"; };
+		2032992F232681E30053C87C /* en.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = en.json; sourceTree = "<group>"; };
+		20329930232681E30053C87C /* fr.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fr.json; sourceTree = "<group>"; };
+		20329931232681E30053C87C /* cs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cs.json; sourceTree = "<group>"; };
+		20329932232681E30053C87C /* es.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = es.json; sourceTree = "<group>"; };
+		302D152618F4D35B926E2A5A /* Pods-TLS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TLS.release.xcconfig"; path = "Target Support Files/Pods-TLS/Pods-TLS.release.xcconfig"; sourceTree = "<group>"; };
+		5B1EC63CE41C719CC3BB4201 /* Pods-TLS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TLS.debug.xcconfig"; path = "Target Support Files/Pods-TLS/Pods-TLS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88B8D8BD38BB3510C4B6C79E /* Pods_TLS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,8 +63,11 @@
 		2032990923267D510053C87C = {
 			isa = PBXGroup;
 			children = (
+				2032992723267D730053C87C /* Podfile */,
 				2032991423267D510053C87C /* TLS */,
 				2032991323267D510053C87C /* Products */,
+				6F96D3BE3BFEE0A6730DCF7B /* Pods */,
+				ED567D4B43367DC8802715C5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +82,64 @@
 		2032991423267D510053C87C /* TLS */ = {
 			isa = PBXGroup;
 			children = (
-				2032991523267D510053C87C /* AppDelegate.swift */,
 				2032991723267D510053C87C /* ViewController.swift */,
+				2032993D232682140053C87C /* Rsources */,
+				20329929232681E20053C87C /* Localization */,
+				2032993C232681FB0053C87C /* AUXFiles */,
+			);
+			path = TLS;
+			sourceTree = "<group>";
+		};
+		20329929232681E20053C87C /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				2032992A232681E20053C87C /* de.json */,
+				2032992B232681E30053C87C /* ru.json */,
+				2032992C232681E30053C87C /* pl.json */,
+				2032992D232681E30053C87C /* uk.json */,
+				2032992E232681E30053C87C /* sk.json */,
+				2032992F232681E30053C87C /* en.json */,
+				20329930232681E30053C87C /* fr.json */,
+				20329931232681E30053C87C /* cs.json */,
+				20329932232681E30053C87C /* es.json */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		2032993C232681FB0053C87C /* AUXFiles */ = {
+			isa = PBXGroup;
+			children = (
+				2032991523267D510053C87C /* AppDelegate.swift */,
 				2032991923267D510053C87C /* Main.storyboard */,
-				2032991C23267D540053C87C /* Assets.xcassets */,
 				2032991E23267D540053C87C /* LaunchScreen.storyboard */,
 				2032992123267D540053C87C /* Info.plist */,
 			);
-			path = TLS;
+			name = AUXFiles;
+			sourceTree = "<group>";
+		};
+		2032993D232682140053C87C /* Rsources */ = {
+			isa = PBXGroup;
+			children = (
+				2032991C23267D540053C87C /* Assets.xcassets */,
+			);
+			name = Rsources;
+			sourceTree = "<group>";
+		};
+		6F96D3BE3BFEE0A6730DCF7B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5B1EC63CE41C719CC3BB4201 /* Pods-TLS.debug.xcconfig */,
+				302D152618F4D35B926E2A5A /* Pods-TLS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		ED567D4B43367DC8802715C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1733B722314DAEEF27F74AE7 /* Pods_TLS.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +149,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2032992423267D540053C87C /* Build configuration list for PBXNativeTarget "TLS" */;
 			buildPhases = (
+				7868840FDF327ACBB7FA9A2F /* [CP] Check Pods Manifest.lock */,
 				2032990E23267D510053C87C /* Sources */,
 				2032990F23267D510053C87C /* Frameworks */,
 				2032991023267D510053C87C /* Resources */,
+				CE8D6C3608D6E08F4967F455 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,13 +202,65 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20329938232681E30053C87C /* en.json in Resources */,
+				20329939232681E30053C87C /* fr.json in Resources */,
+				20329935232681E30053C87C /* pl.json in Resources */,
+				20329934232681E30053C87C /* ru.json in Resources */,
 				2032992023267D540053C87C /* LaunchScreen.storyboard in Resources */,
 				2032991D23267D540053C87C /* Assets.xcassets in Resources */,
+				20329933232681E30053C87C /* de.json in Resources */,
+				2032992823267D730053C87C /* Podfile in Resources */,
+				20329937232681E30053C87C /* sk.json in Resources */,
+				2032993B232681E30053C87C /* es.json in Resources */,
+				2032993A232681E30053C87C /* cs.json in Resources */,
 				2032991B23267D510053C87C /* Main.storyboard in Resources */,
+				20329936232681E30053C87C /* uk.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7868840FDF327ACBB7FA9A2F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TLS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE8D6C3608D6E08F4967F455 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TLS/Pods-TLS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TLS/Pods-TLS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TLS/Pods-TLS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2032990E23267D510053C87C /* Sources */ = {
@@ -280,6 +412,7 @@
 		};
 		2032992523267D540053C87C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B1EC63CE41C719CC3BB4201 /* Pods-TLS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +431,7 @@
 		};
 		2032992623267D540053C87C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 302D152618F4D35B926E2A5A /* Pods-TLS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
