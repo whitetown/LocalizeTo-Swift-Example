@@ -12,7 +12,6 @@
 		2032991B23267D510053C87C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2032991923267D510053C87C /* Main.storyboard */; };
 		2032991D23267D540053C87C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2032991C23267D540053C87C /* Assets.xcassets */; };
 		2032992023267D540053C87C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2032991E23267D540053C87C /* LaunchScreen.storyboard */; };
-		2032992823267D730053C87C /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 2032992723267D730053C87C /* Podfile */; };
 		20329933232681E30053C87C /* de.json in Resources */ = {isa = PBXBuildFile; fileRef = 2032992A232681E20053C87C /* de.json */; };
 		20329934232681E30053C87C /* ru.json in Resources */ = {isa = PBXBuildFile; fileRef = 2032992B232681E30053C87C /* ru.json */; };
 		20329935232681E30053C87C /* pl.json in Resources */ = {isa = PBXBuildFile; fileRef = 2032992C232681E30053C87C /* pl.json */; };
@@ -34,7 +33,6 @@
 		2032991C23267D540053C87C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2032991F23267D540053C87C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2032992123267D540053C87C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2032992723267D730053C87C /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2032992A232681E20053C87C /* de.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = de.json; sourceTree = "<group>"; };
 		2032992B232681E30053C87C /* ru.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ru.json; sourceTree = "<group>"; };
 		2032992C232681E30053C87C /* pl.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pl.json; sourceTree = "<group>"; };
@@ -63,7 +61,6 @@
 		2032990923267D510053C87C = {
 			isa = PBXGroup;
 			children = (
-				2032992723267D730053C87C /* Podfile */,
 				2032991423267D510053C87C /* TLS */,
 				2032991323267D510053C87C /* Products */,
 				6F96D3BE3BFEE0A6730DCF7B /* Pods */,
@@ -83,7 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				2032991723267D510053C87C /* ViewController.swift */,
-				2032993D232682140053C87C /* Rsources */,
+				2032993D232682140053C87C /* Resources */,
 				20329929232681E20053C87C /* Localization */,
 				2032993C232681FB0053C87C /* AUXFiles */,
 			);
@@ -117,12 +114,12 @@
 			name = AUXFiles;
 			sourceTree = "<group>";
 		};
-		2032993D232682140053C87C /* Rsources */ = {
+		2032993D232682140053C87C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 				2032991C23267D540053C87C /* Assets.xcassets */,
 			);
-			name = Rsources;
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		6F96D3BE3BFEE0A6730DCF7B /* Pods */ = {
@@ -209,7 +206,6 @@
 				2032992023267D540053C87C /* LaunchScreen.storyboard in Resources */,
 				2032991D23267D540053C87C /* Assets.xcassets in Resources */,
 				20329933232681E30053C87C /* de.json in Resources */,
-				2032992823267D730053C87C /* Podfile in Resources */,
 				20329937232681E30053C87C /* sk.json in Resources */,
 				2032993B232681E30053C87C /* es.json in Resources */,
 				2032993A232681E30053C87C /* cs.json in Resources */,
@@ -345,7 +341,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -400,7 +396,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

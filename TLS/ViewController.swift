@@ -41,7 +41,7 @@ class ViewController: UIViewController {
         self.navigationItem.leftBarButtonItem = btnSelect
 
         let btnLatest   = UIBarButtonItem(title: "Latest", style: .plain, target: self, action: #selector(getLatestLanguages))
-        let btnSnapshot = UIBarButtonItem(title: "v1.0.0", style: .plain, target: self, action: #selector(getSnapshot))
+        let btnSnapshot = UIBarButtonItem(title: "v1.0.1", style: .plain, target: self, action: #selector(getSnapshot))
         self.navigationItem.rightBarButtonItems = [btnLatest, btnSnapshot]
     }
 
@@ -88,11 +88,11 @@ class ViewController: UIViewController {
     @objc private func getSnapshot() {
 
         weak var welf = self
-        LocalizeTo.shared.download(version: "v1.0.0") { (errors) in
+        LocalizeTo.shared.download(version: "v1.0.1") { (errors) in
             if let errors = errors {
                 print(errors)
             } else {
-                LocalizeTo.shared.reload(languages: welf?.languages ?? [], version: "v1.0.0")
+                LocalizeTo.shared.reload(languages: welf?.languages ?? [], version: "v1.0.1")
                 welf?.tableView.reloadData()
             }
         }
